@@ -8,17 +8,17 @@ from get_user_post import get_user_post
 
 #fetching our own information
 #self_info()
-#insta_username=raw_input('enter your name')
-#get_user_post(insta_username)
+insta_username=raw_input('enter your name')
+get_user_post(insta_username)
 
 
 
-#get_user_id(insta_username)
+get_user_id(insta_username)
 
 #get_user_info(insta_username)
 #function call getownpost
 
-get_own_post()
+#get_own_post()
 
 
 
