@@ -30,6 +30,3 @@ from lika_post import like_a_post
 
 #insta_username=raw_input('enter the name')
 #like_a_post(insta_username)
-
-
-
