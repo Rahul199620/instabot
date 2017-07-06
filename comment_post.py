@@ -1,7 +1,6 @@
 #import keyword is used for access various files
-import requests
 from constant import Access_Token,BASE_URL
-
+import requests
 
 from post_id import get_post_id
 #function decleration for comment on post
@@ -16,7 +15,7 @@ def post_comment(insta_username):
     print 'POST request url : %s' % (request_url)
     make_comment=requests.post(request_url,payload).json()
 
-    if make_comment['meta']['data'] == 200:
+    if make_comment['meta']['code'] == 200:
         print('comment succsefully')
     else:
         print("no comment found")
