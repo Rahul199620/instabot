@@ -1,3 +1,6 @@
+
+
+
 #mainfile is intialized
 #from selfinfo import self_info
 #from getuser_id import get_user_id
@@ -25,6 +28,8 @@ from lika_post import like_a_post
 
 #get_own_post()
 
-insta_username=raw_input('enter the name')
-like_a_post(insta_username)
+#insta_username=raw_input('enter the name')
+#like_a_post(insta_username)
+
+
 
