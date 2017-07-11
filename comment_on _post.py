@@ -21,8 +21,7 @@ def post_comment(insta_username):
     else:
         print("no comment found")
 
-post_comment(userinfo)
-print userinfo
+
 
 
 
