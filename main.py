@@ -30,3 +30,6 @@ from lika_post import like_a_post
 
 #insta_username=raw_input('enter the name')
 #like_a_post(insta_username)
+
+from delete_cmnt import delete_negative_comment
+delete_negative_comment("shivam.walia")
