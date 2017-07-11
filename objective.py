@@ -9,7 +9,7 @@ def get_hash_tag(insta_username):
     if user_id==None:
         print "user not exist"
         exit()
-    url=BASE_URL+'users/%s/media/recent/?access_token=%s' %(user_id,APP_ACCESS_TOKEN)
+    url=BASE_URL+'users/%s/media/recent/?access_token=%s' %(user_id,Access_Token)
     print "GET requested url :%s" %url
     req_media=requests.get(url).json()
 

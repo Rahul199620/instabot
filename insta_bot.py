@@ -9,6 +9,7 @@ from get_ownpost import get_own_post
 from get_user_post import get_user_post
 from comment_post import post_comment
 from objective import wordcloud
+import wordcloud
 def init_bot():
     #this list cotain users options
     option_list = ['\t\t\t\t*************************Welcome to instabot*****************************',
@@ -58,7 +59,7 @@ def init_bot():
             elif select_option == 8:
 
                 insta_username='shivam.walia'
-                get_hash_tag(insta_username)
+                wordcloud(insta_username)
 
 
             elif select_option =='EXIT':
