@@ -1,5 +1,4 @@
 #import all need labraries and functions from files
-import os
 from wordcloud import WordCloud
 
 
